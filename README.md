@@ -2,6 +2,8 @@
 # 🦅 Nepal Government Real-Time Sentiment Radar
 
 A production-ready data engineering platform that ingests real-time public news indexes and media streams regarding governance in Nepal, processes them through an analytical NLP rules layer, and serves data via an interactive dashboard.
+
+
 nepal-gov-sentiment-radar/
 │
 ├── .github/workflows/       # (Optional) For future CI/CD automated test runs
@@ -12,6 +14,7 @@ nepal-gov-sentiment-radar/
 ├── pipeline.py              # Google News RSS Live collection & ingestion engine
 ├── requirements.txt         # Package dependency blueprint
 └── README.md                # The master project presentation document
+
 
 ## 🛠️ Architecture & Tech Stack
 - **Data Ingestion:** Real-time stream parsing via Google News RSS Feed API.
